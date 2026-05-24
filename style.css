@@ -1,0 +1,135 @@
+/* --- STYLE KHUSUS PORTAL INFORMASI GITHUB --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #0d1117; /* Warna gelap khas GitHub */
+    color: #c9d1d9;
+    padding: 40px 15px;
+    line-height: 1.6;
+}
+
+.github-container {
+    max-width: 760px;
+    margin: 0 auto;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+/* Header */
+.app-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.badge {
+    background-color: #1f6feb;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+.app-header h1 {
+    color: #f0f6fc;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.subtitle {
+    color: #8b949e;
+    font-size: 14px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #30363d;
+    margin-bottom: 25px;
+}
+
+/* Artikel Konten */
+.app-content h2 {
+    color: #f0f6fc;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.app-content p {
+    font-size: 14px;
+    color: #8b949e;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+/* Gaya Link Anchor Text (Sangat Krusial untuk SEO) */
+.app-content a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dashed #58a6ff;
+}
+.app-content a:hover {
+    color: #79c0ff;
+    border-bottom: 1px solid #79c0ff;
+}
+
+/* Tombol Aksi / CTA */
+.cta-wrapper {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 25px 0;
+    text-align: center;
+}
+.cta-text {
+    font-size: 13px !important;
+    color: #c9d1d9 !important;
+    margin-bottom: 15px !important;
+    text-align: center !important;
+}
+.btn-cta {
+    display: inline-block;
+    background-color: #238636; /* Hijau Tombol Sukses GitHub */
+    color: #ffffff !important;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none !important;
+    border-radius: 6px;
+    border: 1px solid #2ea44f;
+    transition: background 0.2s;
+    border-bottom: none !important;
+}
+.btn-cta:hover {
+    background-color: #2ea44f;
+    box-shadow: 0 0 10px rgba(46, 164, 79, 0.4);
+}
+
+/* Footer */
+.app-footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #30363d;
+    text-align: center;
+}
+.app-footer p {
+    font-size: 12px;
+    color: #484f58;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    body { padding: 15px 5px; }
+    .github-container { padding: 15px; }
+    .app-header h1 { font-size: 20px; }
+    .btn-cta { width: 100%; text-align: center; }
+}
